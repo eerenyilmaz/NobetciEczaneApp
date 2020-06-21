@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/textR5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        app:layout_constraintStart_toEndOf="@+id/textL5"
+        app:layout_constraintTop_toTopOf="@+id/textL5" />
+
+    <TextView
+        android:id="@+id/textR7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textL7"
+        app:layout_constraintTop_toBottomOf="@+id/textL7" />
+
+    <TextView
+        android:id="@+id/textL7"
+        android:layout_width="56dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:text="Adres : "
+        app:layout_constraintStart_toStartOf="@+id/textL6"
+        app:layout_constraintTop_toBottomOf="@+id/textL6" />
+
+    <TextView
+        android:id="@+id/textL5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Ad : "
+        app:layout_constraintEnd_toEndOf="@+id/textL2"
+        app:layout_constraintStart_toStartOf="@+id/textL2"
+        app:layout_constraintTop_toBottomOf="@+id/mapButton1" />
+
+    <TextView
+        android:id="@+id/textL6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tel : "
+        app:layout_constraintEnd_toEndOf="@+id/textL5"
+        app:layout_constraintStart_toStartOf="@+id/textL5"
+        app:layout_constraintTop_toBottomOf="@+id/textL5" />
+
+    <TextView
+        android:id="@+id/textL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tel : "
+        app:layout_constraintEnd_toEndOf="@+id/textL2"
+        app:layout_constraintStart_toStartOf="@+id/textL2"
+        app:layout_constraintTop_toBottomOf="@+id/textL2" />
+
+    <TextView
+        android:id="@+id/textL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Ad : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText" />
+
+    <TextView
+        android:id="@+id/textR1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        app:layout_constraintStart_toEndOf="@+id/textL2"
+        app:layout_constraintTop_toTopOf="@+id/textL2" />
+
+    <TextView
+        android:id="@+id/textR2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/textR1"
+        app:layout_constraintStart_toStartOf="@+id/textR1"
+        app:layout_constraintTop_toTopOf="@+id/textL1" />
+
+    <TextView
+        android:id="@+id/textL3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Adres : "
+        app:layout_constraintStart_toStartOf="@+id/textL1"
+        app:layout_constraintTop_toBottomOf="@+id/textL1" />
+
+    <TextView
+        android:id="@+id/textR3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textL3"
+        app:layout_constraintTop_toBottomOf="@+id/textL3" />
+
+    <TextView
+        android:id="@+id/textR6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textL6"
+        app:layout_constraintEnd_toEndOf="@+id/textR5"
+        app:layout_constraintStart_toStartOf="@+id/textR5"
+        app:layout_constraintTop_toBottomOf="@+id/textL5" />
+
+    <Button
+        android:id="@+id/mapButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Haritada Göster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textR3" />
+
+    <Button
+        android:id="@+id/mapButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Haritada Göster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textR7" />
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
