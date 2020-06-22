@@ -10,74 +10,69 @@
         android:id="@+id/textR5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="128dp"
-        app:layout_constraintStart_toEndOf="@+id/textL5"
-        app:layout_constraintTop_toTopOf="@+id/textL5" />
+        android:layout_marginTop="32dp"
+        android:background="#DA292A"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#F8F8F8 "
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapButton1" />
 
     <TextView
         android:id="@+id/textR7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="@+id/textL7"
-        app:layout_constraintTop_toBottomOf="@+id/textL7" />
+        app:layout_constraintTop_toBottomOf="@+id/textL7"
+        android:fontFamily="sans-serif-black"/>
 
     <TextView
         android:id="@+id/textL7"
-        android:layout_width="56dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="16dp"
-        android:text="Adres : "
-        app:layout_constraintStart_toStartOf="@+id/textL6"
-        app:layout_constraintTop_toBottomOf="@+id/textL6" />
-
-    <TextView
-        android:id="@+id/textL5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:text="Ad : "
-        app:layout_constraintEnd_toEndOf="@+id/textL2"
-        app:layout_constraintStart_toStartOf="@+id/textL2"
-        app:layout_constraintTop_toBottomOf="@+id/mapButton1" />
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#353535"
+        app:layout_constraintStart_toStartOf="@+id/textL6"
+        app:layout_constraintTop_toBottomOf="@+id/textSGK2" />
 
     <TextView
         android:id="@+id/textL6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Tel : "
-        app:layout_constraintEnd_toEndOf="@+id/textL5"
-        app:layout_constraintStart_toStartOf="@+id/textL5"
-        app:layout_constraintTop_toBottomOf="@+id/textL5" />
+        android:fontFamily="sans-serif-black"
+        android:textColor="#353535"
+        app:layout_constraintEnd_toEndOf="@+id/textL1"
+        app:layout_constraintStart_toStartOf="@+id/textL1"
+        app:layout_constraintTop_toBottomOf="@+id/textR5" />
 
     <TextView
         android:id="@+id/textL1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Tel : "
-        app:layout_constraintEnd_toEndOf="@+id/textL2"
-        app:layout_constraintStart_toStartOf="@+id/textL2"
-        app:layout_constraintTop_toBottomOf="@+id/textL2" />
-
-    <TextView
-        android:id="@+id/textL2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:text="Ad : "
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#353535"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/headerText" />
+        app:layout_constraintTop_toBottomOf="@+id/textR1" />
 
     <TextView
         android:id="@+id/textR1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="128dp"
-        app:layout_constraintStart_toEndOf="@+id/textL2"
-        app:layout_constraintTop_toTopOf="@+id/textL2" />
+        android:layout_marginTop="16dp"
+        android:background="#DA292A"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#F8F8F8 "
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText" />
 
     <TextView
         android:id="@+id/textR2"
@@ -85,24 +80,27 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="@+id/textR1"
         app:layout_constraintStart_toStartOf="@+id/textR1"
-        app:layout_constraintTop_toTopOf="@+id/textL1" />
+        app:layout_constraintTop_toTopOf="@+id/textL1"
+        android:fontFamily="sans-serif-black"/>
 
     <TextView
         android:id="@+id/textL3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Adres : "
+        android:fontFamily="sans-serif-black"
+        android:textColor="#353535"
         app:layout_constraintStart_toStartOf="@+id/textL1"
-        app:layout_constraintTop_toBottomOf="@+id/textL1" />
+        app:layout_constraintTop_toBottomOf="@+id/textSGK1" />
 
     <TextView
         android:id="@+id/textR3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="@+id/textL3"
-        app:layout_constraintTop_toBottomOf="@+id/textL3" />
+        app:layout_constraintTop_toBottomOf="@+id/textL3"
+        android:fontFamily="sans-serif-black"/>
 
     <TextView
         android:id="@+id/textR6"
@@ -111,35 +109,85 @@
         app:layout_constraintBottom_toBottomOf="@+id/textL6"
         app:layout_constraintEnd_toEndOf="@+id/textR5"
         app:layout_constraintStart_toStartOf="@+id/textR5"
-        app:layout_constraintTop_toBottomOf="@+id/textL5" />
+        android:fontFamily="sans-serif-black"/>
 
     <Button
         android:id="@+id/mapButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Haritada Göster"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="HARİTADA GÖSTER"
+        android:textAlignment="center"
+        android:textColor="#E6DCC7 "
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textR3" />
 
     <Button
         android:id="@+id/mapButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
         android:layout_marginTop="16dp"
-        android:text="Haritada Göster"
+        android:text="HARİTADA GÖSTER"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textR7" />
+        app:layout_constraintTop_toBottomOf="@+id/textR7"
+        android:background="@drawable/rounded_button"
+        android:textColor="#E6DCC7 "
+        android:textStyle="bold|italic"/>
 
     <TextView
         android:id="@+id/headerText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="TextView"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#DA292A"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textSGK1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textL1"
+        app:layout_constraintTop_toBottomOf="@+id/textL1"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#353535"
+        />
+
+    <TextView
+        android:id="@+id/textSGK2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textL6"
+        app:layout_constraintTop_toBottomOf="@+id/textL6"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#353535"/>
+
+    <TextView
+        android:id="@+id/textVAR1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/textR2"
+        app:layout_constraintStart_toStartOf="@+id/textR2"
+        app:layout_constraintTop_toTopOf="@+id/textSGK1"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#7F7D7D"/>
+
+    <TextView
+        android:id="@+id/textVAR2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/textR6"
+        app:layout_constraintStart_toStartOf="@+id/textR6"
+        app:layout_constraintTop_toTopOf="@+id/textSGK2"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#7F7D7D"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
